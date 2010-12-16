@@ -1,0 +1,8 @@
+%html
+  %head
+    %title Shutup Naman!
+    %script{:type => "text/javascript", :src => "/javascripts/head.min.js"}
+    :javascript
+      head.js("https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
+              "/javascripts/application.js");
+  %body= yield

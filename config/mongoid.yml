@@ -1,0 +1,17 @@
+defaults: &defaults
+  host: localhost
+
+development:
+  <<: *defaults
+  database: blog_development
+
+test:
+  <<: *defaults
+  database: blog_test
+
+# set these environment variables on your prod server
+production:
+  <<: *defaults
+  host: <%= ENV['MONGOID_HOST'] %>
+  port: <%= ENV['MONGOID_PORT'] %>
+  database: <%= ENV['MONGOID_DATABASE'] %>

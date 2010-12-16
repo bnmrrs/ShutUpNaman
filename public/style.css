@@ -1,0 +1,65 @@
+body {
+  background: #fff url('/images/bg.png') repeat-x;
+  font-family: "Lucida Grande", "Lucida Sans", "Tahoma", sans serif;
+  font-size: 10px;
+}
+
+#greeter{
+  float:top;
+  width: 100%;
+  font-size: 11px;
+  text-align: right;
+}
+
+#instance {
+  float:center;
+  margin-top:40px;
+}
+#header {
+  margin: 0 auto;
+  width: 600px;
+  font-size: 16px;
+  text-align:center;
+}
+
+#poster {
+  margin: 0 auto;
+  width: 600px;
+  font-size: 16px;
+  text-align:center;
+}
+
+#toolbar {    
+		padding: 4px 4px;
+		width: 590px;
+		font-size: 11px;
+		text-align: left;
+}
+
+#editor{
+  float:right;
+  padding: 2px;
+}
+
+#editbar{
+  float:bottom;
+  display: none;
+  width: 598px;
+  text-align:center;
+}
+
+.postid{
+  width: 550px;
+  height: 25px;
+  border: 1px solid #aaa; 
+  padding: 3px;
+  font-size: 16px; 
+}
+
+.postidText{
+  width: 600px;
+  height: 450px;
+  font-size: 14px;
+}
+
+

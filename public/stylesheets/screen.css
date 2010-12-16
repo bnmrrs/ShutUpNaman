@@ -1,0 +1,52 @@
+body {
+  font-family: "Covered By Your Grace", Helvetica, "Sans Serif";
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+h3 {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+
+#h-container {
+  margin: 0 auto;
+  width: 400px;
+  height: 95%;
+  position: relative;
+  text-align: center;
+}
+
+#v-container {
+  position: absolute;
+  top: 50%;
+  height: 250px;
+  margin-top: -230px;
+}
+
+#footer {
+  position: absolute;
+  top: 100%;
+  width: 440px;
+  height: 50px;
+  margin-top: -50px;
+}
+
+#tweet {
+  width: 400px;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 5px;
+  background-color: #b81f00;
+  color: #fffeff;
+}
+
+.shutup {
+  display: none;
+}

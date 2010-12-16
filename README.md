@@ -12,10 +12,10 @@ Installation
 ------------
 To install this application locally, simply run the following few commands:
 
-  git clone https://github.com/bnmrrs/ShutUpNaman.git
-  cd ShutUpNaman
-  bundle install
-  rackup
+	git clone https://github.com/bnmrrs/ShutUpNaman.git
+	cd ShutUpNaman
+	bundle install
+	rackup
 
 You should now be able to view the application at http://localhost:9292
 

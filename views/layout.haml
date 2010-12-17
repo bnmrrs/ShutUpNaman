@@ -1,0 +1,14 @@
+%html
+  %head
+    %title Shutup Naman!
+    %link{:rel => "stylesheet", :type => "text/css", :href => "http://fonts.googleapis.com/css?family=Covered+By+Your+Grace"}
+    %link{:rel => "stylesheet", :type => "text/css", :href => "/stylesheets/screen.css"}
+    %script{:type => "text/javascript", :src => "/javascripts/head.min.js"}
+    :javascript
+      head.js("https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js",
+              "/javascripts/application.js");
+  %body
+    #h-container
+      #v-container= yield
+      #footer
+        %p Note: This is all in good fun. Naman is a friend of ours. No need to take any offense.

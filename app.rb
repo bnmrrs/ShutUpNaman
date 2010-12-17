@@ -1,12 +1,6 @@
 require 'haml'
-require 'mongoid'
-require 'config/config'
+require 'config/init'
 
 get '/' do
-  test = 'jamie'
-  haml :index, :locals => {:test => test}
-end
-
-get '/post/:name' do 
-  haml :createpost, :locals => {:name => params[:name]}
+  haml :index
 end

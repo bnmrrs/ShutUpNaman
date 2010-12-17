@@ -13,6 +13,11 @@ h3 {
   margin-bottom: 10px;
 }
 
+a {
+  text-decoration: none;
+  color: #000;
+}
+
 #h-container {
   margin: 0 auto;
   width: 400px;

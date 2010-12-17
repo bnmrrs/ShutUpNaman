@@ -1,4 +1,4 @@
-Shutup Naman! A website by friends of Naman.
+Shut up, Naman! A website by friends of Naman.
 ============================================
 A website devoted to our good friend Naman, and the things he says.
 
